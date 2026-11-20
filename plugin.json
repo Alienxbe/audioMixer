@@ -1,0 +1,22 @@
+{
+    "id": "audioMixer",
+    "name": "Audio Mixer",
+    "description": "pavucontrol-style mixer in the bar: per-app volume, output/input devices, ports (e.g. headset vs internal mic) and card profiles.",
+    "version": "1.1.0",
+    "author": "martin-fedora",
+    "type": "widget",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "component": "./AudioMixerWidget.qml",
+    "icon": "tune",
+    "requires": [
+        "pactl"
+    ],
+    "permissions": [
+        "settings_read",
+        "settings_write",
+        "process"
+    ],
+    "settings": "./AudioMixerSettings.qml"
+}
