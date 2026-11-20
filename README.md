@@ -35,7 +35,7 @@ A pavucontrol-style audio mixer for the [DankMaterialShell](https://github.com/A
 ## Installation
 
 ```sh
-git clone <this-repo-url> ~/.config/dms/plugins/audioMixer
+git clone https://github.com/Alienxbe/audioMixer.git ~/.config/dms/plugins/audioMixer
 ```
 
 Then, in DMS:
